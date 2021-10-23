@@ -1,5 +1,5 @@
 replicate.log: data
-	make -C replicate.py
+	make -C lib
 
 data:
 	wget https://zenodo.org/record/3351648/files/kickscore-kdd-20190725.tar.gz?download=1 -O kickscore-kdd-20190725.tar.gz
