@@ -9,12 +9,12 @@ from math import log
 
 SETTINGS = {
     "wol": {
-        "path": "kdd-starcraft-wol.txt",
+        "path": "data/kdd-starcraft-wol.txt",
         "idx1": 30828,
         "idx2": 43159,
     },
     "hots": {
-        "path": "kdd-starcraft-hots.txt",
+        "path": "data/kdd-starcraft-hots.txt",
         "idx1": 14291,
         "idx2": 20007,
     },
