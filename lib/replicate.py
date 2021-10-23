@@ -7,7 +7,7 @@ from datetime import datetime
 from kseval.models import basketball, tennis
 from kseval.plotting import sigconf_settings
 from kseval.utils import data_path
-from kseval.base import iterate_dataset
+from kseval.models.base import iterate_dataset
 from matplotlib.dates import YearLocator, DateFormatter
 
 from math import log, exp
