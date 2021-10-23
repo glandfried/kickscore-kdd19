@@ -23,7 +23,7 @@ m_start = psutil.virtual_memory().available; start = time.time()
 model = tennis.AffineWienerModel(ovar=0.36622,wvar=0.14782,svar=0.001)
 model.fit_params["max_iter"] = 10
 model.fit()
-exp(model.ks_model.log_likelihood/N) # 0.54593
+rate = exp(model.ks_model.log_likelihood/N) # 0.54593
 
 elapsed = time.time() - start; m_epased = m_start - psutil.virtual_memory().available
 
