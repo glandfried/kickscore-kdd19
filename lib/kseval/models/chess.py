@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from math import log
 
 
-DATASET = "data/kdd-chess-small.txt"
+DATASET = "../data/kdd-chess-small.txt"
 
 
 class TernaryModel(KickScoreModel, metaclass=abc.ABCMeta):
