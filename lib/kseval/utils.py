@@ -4,7 +4,8 @@ from datetime import datetime, timezone
 
 
 def data_path(fname):
-    return fname
+    return os.path.join(os.environ["KSEVAL_DATASETS"], fname)
+
 
 def parse_config(string):
     config = dict()

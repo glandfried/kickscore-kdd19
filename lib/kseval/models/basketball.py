@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from math import log
 
 
-DATASET = "../data/kdd-basketball.txt"
+DATASET = "kdd-basketball.txt"
 
 
 class BinaryModel(KickScoreModel, metaclass=abc.ABCMeta):
