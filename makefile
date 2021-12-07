@@ -6,3 +6,6 @@ data:
 	tar xvf kickscore-kdd-20190725.tar.gz
 	rm kickscore-kdd-20190725.tar.gz
 
+path:
+	if grep -Fxq "export KSEVAL_DATASETS=/home/landfried/meta/fork/kickscore-kdd19/data/" ~/.bashrc; then echo "True"; else cat "export KSEVAL_DATASETS=/home/landfried/meta/fork/kickscore-kdd19/data/" ~/.bashrc >>  ; fi
+
